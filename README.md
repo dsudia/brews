@@ -8,5 +8,5 @@ This is an assessment on [knex.js](http://knexjs.org/).
 * Update the `beers` and `breweries` route files with calls to the queries you wrote in `queries.js`
 * When you're done, you should have a site that looks [like this](http://galvanize-brews.herokuapp.com/)
 * Push your site and your database to a public URL
-* Edit this `README.md` to include the link to your public URL [here](https://www.your-url-here.com)
+* Edit this `README.md` to include the link to your public URL [here](http://immense-taiga-45212.herokuapp.com)
 * Issue a PR to this repo!
