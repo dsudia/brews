@@ -2,7 +2,7 @@
 exports.seed = function(knex, Promise) {
   return Promise.join(
     // Deletes ALL existing entries
-    knex('table_name').del(),
+    knex('breweries').del(),
 
     // Inserts seed entries
     knex('breweries').insert({name: 'Comrade', city: 'Denver', state: 'CO'}),
