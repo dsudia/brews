@@ -2,11 +2,12 @@
 exports.seed = function(knex, Promise) {
   return Promise.join(
     // Deletes ALL existing entries
-    knex('table_name').del(), 
+    knex('table_name').del(),
 
     // Inserts seed entries
-    knex('table_name').insert({id: 1, colName: 'rowValue'}),
-    knex('table_name').insert({id: 2, colName: 'rowValue2'}),
-    knex('table_name').insert({id: 3, colName: 'rowValue3'})
+    knex('beers').insert({brewery_id: 1, name: 'Yellow Fever', abv: 5.0}),
+    knex('beers').insert({brewery_id: 1, name: 'Redcon', abv: 5.7}),
+    knex('beers').insert({brewery_id: 2, name: 'True Blonde Ale', abv: 5.0}),
+    knex('beers').insert({brewery_id: 2, name: 'Modus Hoperandi IPA', abv: 6.8})
   );
 };
